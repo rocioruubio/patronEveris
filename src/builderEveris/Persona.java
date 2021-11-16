@@ -2,16 +2,14 @@ package builderEveris;
 
 public class Persona {
 	private String nombre;
+	private String apellidos;
 	private static Persona person;
 
 	
 	public Persona() {
 		
 	}
-	public Persona(String nombre) {
-		super();
-		this.nombre = nombre;
-	}
+	
 	public String getNombre() {
 		return nombre;
 	}
@@ -25,5 +23,14 @@ public class Persona {
 		Persona.person = person;
 	}
 
+	public String getApellidos() {
+		return apellidos;
+	}
+
+	public void setApellidos(String apellidos) {
+		this.apellidos = apellidos;
+	}
+	
+	
 	
 }
